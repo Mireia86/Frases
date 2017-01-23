@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		 
+		<title>jQuery</title>
+		<link rel="stylesheet" type="text/css" href="jquery_exercise.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+ 
+	</head>
+	<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 pull-center first">
+				<div class="frase">
+					<h1 class="write"></h1>
+					<input type="button" id="boton" value="Refresh" class="reiniciar" onclick="location.reload(phrase);"></input>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 pull-center second">
+				<div class="div1">
+					<div class="button_hish">
+						<input type="button" id="hide" value="Hide"></input>
+						<input type="button" id="show" value="Show"></input>
+					</div>
+
+					<input type="text" class="input" name="info" autofocus id="info" placeholder="Escribe tu frase"></input><span class="ex glyphicon glyphicon-remove"></span>
+				
+					<ul id="reference" class="listphrases">
+						
+					</ul>
+				</div>
+			</div>		
+		</div>	
+	</div>
+		
+		<script type="text/javascript" src="jquery_exercise.js"></script>
+	</body>
+	</html>
